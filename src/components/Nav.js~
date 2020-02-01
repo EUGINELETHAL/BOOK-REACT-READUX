@@ -1,0 +1,18 @@
+import React from 'react'
+import '../App.css'
+import { NavLink } from 'react-router-dom';
+const Nav = () => (
+  <div className="topnav">
+  <a><NavLink to='/'>Book-A-Meal</NavLink></a>
+  <a><NavLink to='/about'>Add Your Restaurant</NavLink></a>
+  <div className="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search"/>
+      <button type="submit"><i className="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+   
+ );
+export default Nav
