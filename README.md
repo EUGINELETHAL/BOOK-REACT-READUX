@@ -1,5 +1,5 @@
 React-Redux Blog
-Front-end for a simple React-Redux Blog.
+Front-end for a  Food-Ordering Application
 
 User Stories
  
